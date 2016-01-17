@@ -85,6 +85,10 @@
 		width: 960px;
 	}
 
+	.mobile-top-contact {
+		display: none;
+	}
+
 	@media screen and (max-width: 1800px) {
 
 		.container.\31 25\25 {
@@ -2911,6 +2915,12 @@
 			width: 100%;
 		}
 
+		.mobile-top-contact {
+			display: block;
+		}
+		.mobile-top-contact a {
+			color: rgba(255, 255, 255, 0.4);
+		}
 		/* Header */
 
 			#header {
